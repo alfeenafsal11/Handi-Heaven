@@ -1,0 +1,40 @@
+<html>
+<body>
+<script>
+function validateform(){
+var name=document.myform.name.value;
+var password=document.myform.password.value;
+
+if (name==null || name==""){
+alert("Name can't be blank");
+return false;
+}else if(password.length<6){
+alert("Password must be at least 6 characters long.");
+return false;
+}
+}
+</script>
+<body>
+    <div style=" background-color: aqua;
+    background-repeat: no-repeat;
+    height:fit-content;
+    display: cover;
+    display: grid;
+     padding-left: 200px;
+     padding-top: 50px;
+     padding-right: 200px;
+     padding-bottom: 50px;
+     height: 500px;">
+        <div style=" background-color:rgb(11, 129, 233) ; text-align: center;">
+    <h2 style="font-size: 100px; " >Welcome to Sign in</h2>
+
+<h1>
+<form name="myform" onsubmit="return validateform()" >
+ Name:    <input type="text" name="name"><br/>
+Password: <input type="password   " name="password"><br/>
+<input type="submit" value="register"></h1>
+</form>
+</div>
+</div>
+</body>
+</html>

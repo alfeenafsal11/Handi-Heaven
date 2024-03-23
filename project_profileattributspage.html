@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Attributes| The Nomadic Transit</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            text-align: center;
+		}
+		
+		#pageheader {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+			margin-top: 0;
+        }
+		
+		
+        h1 {
+            color: #333;
+            margin-top: 20px;
+        }
+
+        p {
+            color: #666;
+            margin-bottom: 10px;
+        }
+
+        select, .input-checkbox {
+            margin-bottom: 10px;
+        }
+
+        .clue {
+            color: #999;
+            font-style: italic;
+        }
+
+        .input-checkbox {
+            margin-right: 5px;
+        }
+		
+				
+		input {
+			vertical-align: middle;
+			position: relative;
+		}
+		
+		label{
+			display: block;
+		}
+
+        #Submit {
+            margin-top: 20px;
+        }
+
+        #submit-button, #skip-button {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            border: none;
+            cursor: pointer;
+            margin-right: 10px;
+        }
+		#firstsec {
+			background-color: #fff;
+			padding: 20px;
+			margin: 20px auto;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+			border-radius: 10px;
+		}
+    </style>
+	<head>
+		<h1 id="pageheader">Complete your profile</h1>
+	</head>
+	<body>
+	<section id="firstsec">
+		<p>1.How would you describe yourself in the field of Art:</p>
+		<select id="dropdown" required>
+			<option value="Select an option">Select an option</option>
+			<option value="You continuously travel from place to place">You appreciate and hold a great interest in Arts and Artifacts.</option>
+			<option value="You travel around a lot as a part of your work">You collect Arts and Artifacts as part of your personnal hobbies.</option>
+			<option value="You like on your free-time">You like to explore Art in your free-time</option>
+			<option value="You rarely get time to/rarely do travel">You rarely get find yourself in this field.</option>
+		</select>
+		<section>
+		<p>
+			2.Select your preferred choice(s) of Art:
+			<span class="clue">(Check all that apply)</span>
+		</p>
+        <label>
+          <input name="prefer" value="A family outing" type="checkbox" class="input-checkbox">
+          Paintings
+        </label>
+        <label>
+          <input name="prefer" value="A hiking trip" type="checkbox" class="input-checkbox">
+          Sculptures
+        </label>
+        <label>
+          <input name="prefer" value="An intriguing trekking experience" type="checkbox" class="input-checkbox">
+		  Drawings
+        </label>
+        <label>
+          <input name="prefer" value="A planned trip to the countryside" type="checkbox" class="input-checkbox">
+          Photography
+        </label>
+        <label>
+          <input name="prefer" value="A treat of soltitude" type="checkbox" class="input-checkbox">
+          Printmaking
+        </label>
+        <label>
+          <input name="prefer" value="A cultural exploration" type="checkbox" class="input-checkbox">
+          Textiles and Fiber Arts
+        </label>
+		<label>
+          <input name="prefer" value="A travel guided visit of some tourist attraction" type="checkbox" class="input-checkbox">
+          Ceramics
+        </label>
+		<label>
+          <input name="prefer" value="A long trip with family or friends" type="checkbox" class="input-checkbox">
+          Ancient Pottery
+        </label>
+		<label>
+          <input name="prefer" value="A long trip with family or friends" type="checkbox" class="input-checkbox">
+          Digital Art
+        </label>
+		<label>
+          <input name="prefer" value="A long trip with family or friends" type="checkbox" class="input-checkbox">
+          Performance Art
+        </label>
+		<label>
+          <input name="prefer" value="A long trip with family or friends" type="checkbox" class="input-checkbox">
+          Decorative Art
+        </label>
+		</section>
+		<p>
+			3.Select your preferred choice(s) for Ethnic Art:
+			<span class="clue">(Check all that apply)</span>
+		</p>
+		<section>
+        <label>
+          <input name="prefer" value="Famous cities" type="checkbox" class="input-checkbox">
+          Ancient Egyptian Culture
+        </label>
+        <label>
+          <input name="prefer" value="Monuments" type="checkbox" class="input-checkbox">
+          Ancient Greek and Roman Cultures
+        </label>
+        <label>
+          <input name="prefer" value="Historical landmarks" type="checkbox" class="input-checkbox">
+          Islamic Culture
+        </label>
+        <label>
+          <input name="prefer" value="Camping spots" type="checkbox" class="input-checkbox">
+          Chinese Culture
+        </label>
+        <label>
+          <input name="prefer" value="Mountians/Hill Stations" type="checkbox" class="input-checkbox">
+          Japanese Culture
+        </label>
+        <label>
+          <input name="prefer" value="Plains/Savannahs" type="checkbox" class="input-checkbox">
+          Indian Culture
+        </label>
+		<label>
+          <input name="prefer" value="Beach cities" type="checkbox" class="input-checkbox">
+          Maya, Aztec, and Inca Cultures
+        </label>
+		<label>
+          <input name="prefer" value="Party destinaitons" type="checkbox" class="input-checkbox">
+          Medieval European Culture
+        </label>
+		<label>
+          <input name="prefer" value="Amusement parks/sites" type="checkbox" class="input-checkbox">
+		  Renaissance Culture
+        </label>
+		</section>
+		<section id="Submit">
+			<a href="main page.html"><button id="submit-button">Submit</button></a>
+			<a href="project_profilepage.html"><button id="skip-button">Skip</button></a>
+		</section>
+	</section>
+	</body>
+</html>
